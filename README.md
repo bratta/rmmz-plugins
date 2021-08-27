@@ -61,12 +61,16 @@ Here is a sample file:
 ]
 ```
 
-* `face` - (optional) The filename for the face tileset. For example, `People2`
-* `faceIndex` - (optional; required if you specify `face`) The integer index of the image in the tileset. For example, `0`
-* `name` - (optional) A name for the character speaking. This usually only makes sense if you use a face.
-* `text` - (required) The random bits of text to display. If you need it to wrap, include a newline `\n` character.
-* `background` - (required; defaults to 0) What kind of background to use. 0 = Window (Opaque), 1 = Dim (Translucent), 2 = Transparent (Invisible)
-* `position` - (required; defaults to 2) Where to place the message. 0 = Top, 1 = Middle, 2 = Bottom
+Details:
+
+| Key | Requirement | Value |
+| --- | ----------- | ----- |
+| `face` | _optional_ | The filename for the face tileset. For example, `People2` |
+| `faceIndex` | _optional; required if you specify `face`_ | The integer index of the image in the tileset. For example, `0` |
+| `name` | _optional_ | A name for the character speaking. This usually only makes sense if you use a face. |
+| `text` | _required_ | The random bits of text to display. If you need it to wrap, include a newline `\n` character. |
+| `background` | _required; defaults to 0_ | What kind of background to use. 0 = Window (Opaque), 1 = Dim (Translucent), 2 = Transparent (Invisible) |
+| `position` | _required; defaults to 2_ | Where to place the message. 0 = Top, 1 = Middle, 2 = Bottom |
 
 ### Usage
 
